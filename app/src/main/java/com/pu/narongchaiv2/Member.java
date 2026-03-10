@@ -1,3 +1,5 @@
+package com.pu.narongchaiv2;
+
 import java.io.Serializable;
 public class Member implements Serializable {
     private String id;
