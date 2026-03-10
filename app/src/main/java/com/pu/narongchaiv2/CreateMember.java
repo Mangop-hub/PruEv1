@@ -58,6 +58,7 @@ public class CreateMember extends AppCompatActivity {
 
 
     }
+
     private void InsertData(Member member) {
         String url = GBValues.hostname + "minsert.php";
         idPBLoading.setVisibility(View.VISIBLE);
