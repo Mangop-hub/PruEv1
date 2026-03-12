@@ -99,4 +99,9 @@ public class MainActivity extends AppCompatActivity implements MemberAdapter.OnM
         memberRV.setLayoutManager(manager);
         memberRV.setAdapter(adapter);
     }
+    @Override
+    public void onResume() {
+        super.onResume();
+        getData();
+    }
 }
