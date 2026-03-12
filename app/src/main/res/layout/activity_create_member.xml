@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical">
         <EditText
             android:id="@+id/idEdtMemberName"
@@ -20,7 +21,6 @@
             android:layout_marginEnd="10dp"
             android:hint="Member Name"
             tools:ignore="MissingConstraints" />
-
         <EditText
             android:id="@+id/idMemberTel"
             android:layout_width="match_parent"
@@ -51,5 +51,6 @@
             android:visibility="gone"
             tools:ignore="MissingConstraints" />
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
